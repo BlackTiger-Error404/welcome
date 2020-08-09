@@ -384,7 +384,7 @@ def pilih_super():
 				                       z = json.loads(x.text)
 						       print '\x1b[1;95m[  ✓  ] \x1b[1;97mClone'								
 						       print '\x1b[1;95m[⚡⚡] \x1b[1;95mName \x1b[1;95m    : \x1b[1;95m' + b['name']									
-               				print '\x1b[1;95m[⚡⚡] \x1b[1;95mID \x1b[1;95m      : \x1b[1;95m' + user							
+               			                       print '\x1b[1;95m[⚡⚡] \x1b[1;95mID \x1b[1;95m      : \x1b[1;95m' + user							
 						       print '\x1b[1;95m[⚡⚡] \x1b[1;95mPassword \x1b[1;95m: \x1b[1;95m' + pass3 + '\n'									
 						       oks.append(user+pass3)
                                                else:
