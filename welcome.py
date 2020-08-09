@@ -84,19 +84,10 @@ logo = """
                             \033[1;95m⚡ Facebook  ⚡《BlackTiger》
 			    \033[1;94m•╚════════════░░░░░░►════════════╝•
 """
-
-
-
-
-
-
-
-
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-
 
 back = 0
 berhasil = []
@@ -136,7 +127,6 @@ print """
 		        \033[1;93m| \033[1;47m\033[1;91m《BlackTiger》
 		        \033[1;93m┕━━━━━━━━━━━━━━━━━━━✃━━━━━━━━━━━━━━━━━━━┙
 """
-
 
 CorrectUsername = "Welcome"
 CorrectPassword = "Error404"
@@ -212,7 +202,6 @@ def login():
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
-
 
 def menu():
 	os.system('clear')
