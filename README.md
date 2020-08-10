@@ -15,11 +15,11 @@ pip2 install requests
 
 pip2 install mechanize
 
-git clone https://github.com/BlackTiger-Error404/Black.git
+git clone https://github.com/BlackTiger-Error404/welcome.git
 
-cd Black
+cd welcome
 
-python2 welcome.py
+python2 Welcome.py
 
 USER: Welcome
 
